@@ -1,0 +1,30 @@
+.prod {
+  display: flex;
+  justify-content: space-between;
+  &__info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  &__details {
+    display: flex;
+  }
+  &__designer {
+    color: $textFade-color;
+  }
+  &__price {
+    font-size: 1.5rem;
+    width: 150px;
+    margin-top: 30px;
+  }
+  &__price:hover {
+    text-decoration: underline;
+  }
+  &__img {
+    max-height: 550px;
+    transition: 0.5s;
+  }
+  &__img:hover {
+    transform: scale(1.1);
+  }
+}

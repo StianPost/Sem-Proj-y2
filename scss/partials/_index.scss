@@ -1,0 +1,55 @@
+.heroCard {
+  @include glassCard;
+  padding: 25px;
+  display: flex;
+  color: $text-color;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: space-between;
+  &__intro {
+    max-width: 500px;
+  }
+  &__img {
+    width: 50%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+}
+.featureHeader {
+  color: $text-color;
+  border-bottom: 1px $text-color solid;
+  margin-bottom: 25px;
+}
+
+.featureCard {
+  color: $text-color;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  border: 1px solid transparent;
+  transition: 0.3s;
+  transition-timing-function: ease-in;
+  padding-top: 10px;
+  &__header {
+    padding: 10px 20px;
+  }
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 35px;
+  }
+  &__name {
+    color: $textFade-color;
+    padding-left: 40px;
+  }
+  &__img {
+    max-height: 300px;
+    align-self: center;
+    transition: 0.5s;
+  }
+  &__img:hover {
+    transform: scale(1.05);
+  }
+}

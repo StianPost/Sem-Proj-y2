@@ -1,0 +1,27 @@
+.dashHeader {
+  @include glassCard;
+}
+
+.tableRow {
+  font-size: 1.25rem;
+  padding: 5px 0px;
+}
+.dashHover {
+  transition: 0.5s;
+}
+.dashHover:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+.dashEdit:hover {
+  color: $removeHover;
+}
+.dashDelete:hover {
+  color: $deleteHover;
+}
+.btnContainer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex-direction: row-reverse;
+}

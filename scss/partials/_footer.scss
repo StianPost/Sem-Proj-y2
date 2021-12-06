@@ -1,0 +1,14 @@
+footer {
+  @include glassHeader;
+  padding: 15px;
+  margin-top: 15px;
+  text-align: center;
+}
+.footer__info {
+  color: $text-color;
+  margin: 0px;
+  &--faded {
+    color: $textFade-color;
+    font-size: 0.8rem;
+  }
+}

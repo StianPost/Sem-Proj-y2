@@ -1,0 +1,37 @@
+.featureCard:hover {
+  @include glassCard;
+}
+.filterBar {
+  @include glassCard;
+  display: flex;
+  margin-bottom: 25px;
+  &__list {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  &__item {
+    list-style: none;
+    color: $text-color;
+    padding: 5px 0px;
+    font-size: 1.5rem;
+  }
+  &__item:hover {
+    cursor: pointer;
+  }
+}
+
+.searchInput {
+  color: $text-color;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid $text-color;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 1.2rem;
+}
+.searchInput::placeholder {
+  color: $text-color;
+}

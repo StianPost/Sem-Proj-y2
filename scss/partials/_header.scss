@@ -1,0 +1,40 @@
+.headerBar {
+  padding: 0px;
+  background: radial-gradient(
+    98.28% 98.28% at 4.92% 0%,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.06) 100%
+  ) !important;
+  box-sizing: border-box !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+.logo {
+  height: 50px;
+  transition: 0.4s;
+}
+.logo:hover {
+  height: 52px;
+}
+.logbtns {
+  transition: 0.5s;
+}
+.logbtns:hover {
+  cursor: pointer;
+}
+.logoutBtn:hover {
+  color: red !important;
+  // transform: scale(1.2);
+  font-weight: bolder;
+}
+.loginBtn:hover {
+  color: rgb(0, 199, 0) !important;
+  transform: scale(1.2);
+  font-weight: bolder;
+}
+
+@media (max-width: 991px) {
+  .nav-item {
+    padding: 5px 0px !important;
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,34 @@
+.cta {
+  height: 50px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: $text-color;
+  color: $black;
+  border-radius: 30px;
+  transition: 0.5s;
+  border: none;
+}
+.cta:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  background-color: $bgFade-color;
+}
+.cta--buy:hover {
+  box-shadow: 0px 0px 10px 7px $buyHover;
+}
+.cta--remove:hover,
+.cta--clear:hover {
+  box-shadow: 0px 0px 10px 7px $removeHover;
+}
+.cta--login:hover {
+  box-shadow: 0px 0px 10px 7px $loginHover;
+}
+
+.clicked {
+  transform: translateY(-10px);
+}
