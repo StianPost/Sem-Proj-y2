@@ -62,6 +62,7 @@ You can list a the tech stack that you've used over here
 - HTML
 - SCSS
 - JS
+- [Figma](https://www.figma.com/)
 - [Bootstrap](https://getbootstrap.com)
 - [Heroku](https://www.heroku.com/)
 - [Strapi](https://strapi.io/)
