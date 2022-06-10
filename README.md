@@ -38,26 +38,33 @@ Building a checkout and payment system is not a part of the project.
 
 ![image](https://hopeful-sinoussi-ede96f.netlify.app/Postfolio%20imgs/Semester%20project.PNG)
 
-A simple overview of the use/purpose of the project.
+This project was my semester project for my 2nd year on Noroff, it's a E-commerce website where you can search for and order watches.
 
 ## Description
 
 Add a more detailed description of what your project entails and set out to do.
 
-You can add some bullet points if you'd like to:
+I was given the task to design and create an E-commerce website.
+I used Figma for the design, in particular I wanted to use Glasmorphism as a theme, that proved to be a challenge though I did make it work.
 
-- List item 1
-- List item 2
-- List item 3
+In the brief we also needed to create an admin side where you could do a CRUD operation on the watces:
+ - Create
+ - Read
+ - Update
+ - Delete
+
+I also added a cart using local storage where you could add several watches into your shopping cart.
 
 ## Built With
 
 You can list a the tech stack that you've used over here
 
-- [hmtl]
-- [scss]
-- [JS]
+- HTML
+- SCSS
+- JS
 - [Bootstrap](https://getbootstrap.com)
+- [Heroku](https://www.heroku.com/)
+- [Strapi](https://strapi.io/)
 
 ## Getting Started
 
