@@ -34,9 +34,9 @@ Building a checkout and payment system is not a part of the project.
 **You will create and deploy your own version of strapi to heroku**
 
 
-# Your project title
+# Omega Design
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image](https://hopeful-sinoussi-ede96f.netlify.app/Postfolio%20imgs/Semester%20project.PNG)
 
 A simple overview of the use/purpose of the project.
 
