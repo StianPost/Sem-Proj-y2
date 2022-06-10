@@ -85,5 +85,6 @@ This is built using html so just open up the index.html with liveserver
 ## Contact
 
 [My LinkedIn page](https://www.linkedin.com/in/stian-post-a211201b5/)
+
 [Portfolio](https://postfolio.netlify.app/)
 
